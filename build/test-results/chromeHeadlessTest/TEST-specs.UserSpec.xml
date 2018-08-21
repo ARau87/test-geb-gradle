@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="specs.UserSpec" tests="2" skipped="0" failures="2" errors="0" timestamp="2018-08-21T12:33:16" hostname="ASUS03" time="11.562">
+  <properties/>
+  <testcase name="p_Create_New_User" classname="specs.UserSpec" time="3.931">
+    <failure message="Condition failed with Exception:&#10;&#10;fillUserData()&#10;|&#10;java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.&#10; &#10;This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.&#10;This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support&#10;The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+fillUserData()
+|
+java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+ 
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+
+	at specs.UserSpec.p_Create_New_User(UserSpec.groovy:34)
+Caused by: java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.navigator.SelectFactory.loadSelectClass(SelectFactory.groovy:32)
+	at geb.navigator.SelectFactory.createSelectFor(SelectFactory.groovy:25)
+	at geb.navigator.NonEmptyNavigator.setSelectValue(NonEmptyNavigator.groovy:719)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:685)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure40(NonEmptyNavigator.groovy:676)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:675)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:417)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.module.Select.setSelected(Select.groovy:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.TemplateDerivedPageContent.propertyMissing(TemplateDerivedPageContent.groovy:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.userBlock.CreateNewUserPage.selectTenant(CreateNewUserPage.groovy:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.UserSpec.fillUserData(UserSpec.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 1 more
+</failure>
+  </testcase>
+  <testcase name="p_Edit_User" classname="specs.UserSpec" time="7.631">
+    <failure message="Condition failed with Exception:&#10;&#10;saveUser()&#10;|&#10;geb.error.RequiredPageContentNotPresent: The required page content 'pages.userBlock.EditUserPage -&gt; successMessage: geb.navigator.EmptyNavigator' is not present&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+saveUser()
+|
+geb.error.RequiredPageContentNotPresent: The required page content 'pages.userBlock.EditUserPage -&gt; successMessage: geb.navigator.EmptyNavigator' is not present
+
+	at specs.UserSpec.p_Edit_User(UserSpec.groovy:57)
+Caused by: geb.error.RequiredPageContentNotPresent: The required page content 'pages.userBlock.EditUserPage -&gt; successMessage: geb.navigator.EmptyNavigator' is not present
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:87)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:41)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.userBlock.EditUserPage.checkSuccessMessage(EditUserPage.groovy:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.UserSpec.saveUser(UserSpec.groovy:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 1 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

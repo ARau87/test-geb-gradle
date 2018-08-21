@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="specs.LoginSpec" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-08-21T12:32:18" hostname="ASUS03" time="8.125">
+  <properties/>
+  <testcase name="p_Succesful_Login" classname="specs.LoginSpec" time="1.734"/>
+  <testcase name="n_Login_With_Wrong_Password" classname="specs.LoginSpec" time="1.155"/>
+  <testcase name="n_Login_With_User_Not_Exists" classname="specs.LoginSpec" time="1.071"/>
+  <testcase name="n_Login_With_Wrong_Email" classname="specs.LoginSpec" time="1.188"/>
+  <testcase name="n_Login_With_Empty_Email_Field" classname="specs.LoginSpec" time="0.937"/>
+  <testcase name="n_Login_With_Empty_Password_Field" classname="specs.LoginSpec" time="1.053"/>
+  <testcase name="n_Login_With_Both_Fields_Are_Empty" classname="specs.LoginSpec" time="0.986"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

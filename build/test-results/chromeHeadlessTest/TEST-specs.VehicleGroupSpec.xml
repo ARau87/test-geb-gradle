@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="specs.VehicleGroupSpec" tests="2" skipped="0" failures="2" errors="0" timestamp="2018-08-21T12:33:28" hostname="ASUS03" time="8.644">
+  <properties/>
+  <testcase name="p_Create_New_Vehicle_Group" classname="specs.VehicleGroupSpec" time="4.042">
+    <failure message="Condition failed with Exception:&#10;&#10;saveVehicleGroup()&#10;|&#10;geb.error.RequiredPageContentNotPresent: The required page content 'pages.vehicleGroupBlock.CreateNewVehicleGroupPage -&gt; successMessage: geb.navigator.EmptyNavigator' is not present&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+saveVehicleGroup()
+|
+geb.error.RequiredPageContentNotPresent: The required page content 'pages.vehicleGroupBlock.CreateNewVehicleGroupPage -&gt; successMessage: geb.navigator.EmptyNavigator' is not present
+
+	at specs.VehicleGroupSpec.p_Create_New_Vehicle_Group(VehicleGroupSpec.groovy:35)
+Caused by: geb.error.RequiredPageContentNotPresent: The required page content 'pages.vehicleGroupBlock.CreateNewVehicleGroupPage -&gt; successMessage: geb.navigator.EmptyNavigator' is not present
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:87)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:41)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.vehicleGroupBlock.CreateNewVehicleGroupPage.checkSuccessMessage(CreateNewVehicleGroupPage.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.VehicleGroupSpec.saveVehicleGroup(VehicleGroupSpec.groovy:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 1 more
+</failure>
+  </testcase>
+  <testcase name="p_Edit_Vehicle_Group" classname="specs.VehicleGroupSpec" time="4.602">
+    <failure message="Condition failed with Exception:&#10;&#10;saveVehicleGroup()&#10;|&#10;geb.error.RequiredPageContentNotPresent: The required page content 'pages.vehicleGroupBlock.EditVehicleGroupPage -&gt; successMessage: geb.navigator.EmptyNavigator' is not present&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+saveVehicleGroup()
+|
+geb.error.RequiredPageContentNotPresent: The required page content 'pages.vehicleGroupBlock.EditVehicleGroupPage -&gt; successMessage: geb.navigator.EmptyNavigator' is not present
+
+	at specs.VehicleGroupSpec.p_Edit_Vehicle_Group(VehicleGroupSpec.groovy:55)
+Caused by: geb.error.RequiredPageContentNotPresent: The required page content 'pages.vehicleGroupBlock.EditVehicleGroupPage -&gt; successMessage: geb.navigator.EmptyNavigator' is not present
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:87)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:41)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.vehicleGroupBlock.EditVehicleGroupPage.checkSuccessMessage(EditVehicleGroupPage.groovy:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.VehicleGroupSpec.saveVehicleGroup(VehicleGroupSpec.groovy:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 1 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

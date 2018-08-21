@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class specs.VehicleSpec</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class specs.VehicleSpec</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/specs.html">specs</a> &gt; VehicleSpec</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">2</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">16.163s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="p_Create_New_Vehicle"></a>
+<h3 class="failures">p_Create_New_Vehicle</h3>
+<span class="code">
+<pre>Condition failed with Exception:
+
+fillVehicleData()
+|
+java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+ 
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+
+	at specs.VehicleSpec.p_Create_New_Vehicle(VehicleSpec.groovy:35)
+Caused by: java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.navigator.SelectFactory.loadSelectClass(SelectFactory.groovy:32)
+	at geb.navigator.SelectFactory.createSelectFor(SelectFactory.groovy:25)
+	at geb.navigator.NonEmptyNavigator.setSelectValue(NonEmptyNavigator.groovy:719)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:685)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure40(NonEmptyNavigator.groovy:676)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:675)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:417)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.module.Select.setSelected(Select.groovy:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.TemplateDerivedPageContent.propertyMissing(TemplateDerivedPageContent.groovy:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.vehicleBlock.CreateNewVehiclePage.selectVehicleGroup(CreateNewVehiclePage.groovy:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.VehicleSpec.fillVehicleData(VehicleSpec.groovy:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 1 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="p_Edit_Vehicle"></a>
+<h3 class="failures">p_Edit_Vehicle</h3>
+<span class="code">
+<pre>Condition failed with Exception:
+
+editVehicleData()
+|
+java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+ 
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+
+	at specs.VehicleSpec.p_Edit_Vehicle(VehicleSpec.groovy:56)
+Caused by: java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.navigator.SelectFactory.loadSelectClass(SelectFactory.groovy:32)
+	at geb.navigator.SelectFactory.createSelectFor(SelectFactory.groovy:25)
+	at geb.navigator.NonEmptyNavigator.setSelectValue(NonEmptyNavigator.groovy:719)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:685)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure40(NonEmptyNavigator.groovy:676)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:675)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:417)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.module.Select.setSelected(Select.groovy:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.TemplateDerivedPageContent.propertyMissing(TemplateDerivedPageContent.groovy:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.vehicleBlock.EditVehiclePage.selectVehicleGroup(EditVehiclePage.groovy:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.VehicleSpec.editVehicleData(VehicleSpec.groovy:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 1 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">n_Create_New_Vehicle</td>
+<td class="success">3.801s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">p_Create_New_Vehicle</td>
+<td class="failures">3.773s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">p_Edit_Vehicle</td>
+<td class="failures">5.401s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">p_Vehicle_Import</td>
+<td class="success">3.188s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Fahrzeugliste hochladen
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.7</a> at 21.08.2018, 14:33:54</p>
+</div>
+</div>
+</body>
+</html>

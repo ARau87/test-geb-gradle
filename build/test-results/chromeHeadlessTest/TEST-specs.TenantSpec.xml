@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="specs.TenantSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-08-21T12:32:49" hostname="ASUS03" time="26.794">
+  <properties/>
+  <testcase name="p_find_tenant_by_name" classname="specs.TenantSpec" time="2.383"/>
+  <testcase name="n_cannot_find_tenant_that_does_not_exist" classname="specs.TenantSpec" time="4.218"/>
+  <testcase name="n_cannot_click_edit_button_of_tenant_that_does_not_exist" classname="specs.TenantSpec" time="5.103"/>
+  <testcase name="p_edit_existing_tenant" classname="specs.TenantSpec" time="9.443"/>
+  <testcase name="p_create_new_tenant" classname="specs.TenantSpec" time="5.646"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

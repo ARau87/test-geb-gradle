@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="specs.VehicleSpec" tests="4" skipped="0" failures="2" errors="0" timestamp="2018-08-21T12:33:36" hostname="ASUS03" time="16.163">
+  <properties/>
+  <testcase name="p_Create_New_Vehicle" classname="specs.VehicleSpec" time="3.773">
+    <failure message="Condition failed with Exception:&#10;&#10;fillVehicleData()&#10;|&#10;java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.&#10; &#10;This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.&#10;This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support&#10;The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+fillVehicleData()
+|
+java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+ 
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+
+	at specs.VehicleSpec.p_Create_New_Vehicle(VehicleSpec.groovy:35)
+Caused by: java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.navigator.SelectFactory.loadSelectClass(SelectFactory.groovy:32)
+	at geb.navigator.SelectFactory.createSelectFor(SelectFactory.groovy:25)
+	at geb.navigator.NonEmptyNavigator.setSelectValue(NonEmptyNavigator.groovy:719)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:685)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure40(NonEmptyNavigator.groovy:676)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:675)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:417)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.module.Select.setSelected(Select.groovy:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.TemplateDerivedPageContent.propertyMissing(TemplateDerivedPageContent.groovy:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.vehicleBlock.CreateNewVehiclePage.selectVehicleGroup(CreateNewVehiclePage.groovy:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.VehicleSpec.fillVehicleData(VehicleSpec.groovy:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 1 more
+</failure>
+  </testcase>
+  <testcase name="p_Edit_Vehicle" classname="specs.VehicleSpec" time="5.401">
+    <failure message="Condition failed with Exception:&#10;&#10;editVehicleData()&#10;|&#10;java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.&#10; &#10;This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.&#10;This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support&#10;The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+editVehicleData()
+|
+java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+ 
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+
+	at specs.VehicleSpec.p_Edit_Vehicle(VehicleSpec.groovy:56)
+Caused by: java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.navigator.SelectFactory.loadSelectClass(SelectFactory.groovy:32)
+	at geb.navigator.SelectFactory.createSelectFor(SelectFactory.groovy:25)
+	at geb.navigator.NonEmptyNavigator.setSelectValue(NonEmptyNavigator.groovy:719)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:685)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure40(NonEmptyNavigator.groovy:676)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:675)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:417)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.module.Select.setSelected(Select.groovy:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.TemplateDerivedPageContent.propertyMissing(TemplateDerivedPageContent.groovy:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.vehicleBlock.EditVehiclePage.selectVehicleGroup(EditVehiclePage.groovy:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.VehicleSpec.editVehicleData(VehicleSpec.groovy:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 1 more
+</failure>
+  </testcase>
+  <testcase name="p_Vehicle_Import" classname="specs.VehicleSpec" time="3.188"/>
+  <testcase name="n_Create_New_Vehicle" classname="specs.VehicleSpec" time="3.801"/>
+  <system-out><![CDATA[Fahrzeugliste hochladen
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

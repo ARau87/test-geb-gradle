@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="specs.ReservationsSpec" tests="5" skipped="0" failures="4" errors="0" timestamp="2018-08-21T12:32:26" hostname="ASUS03" time="23.495">
+  <properties/>
+  <testcase name="p_find_reservation" classname="specs.ReservationsSpec" time="6.384"/>
+  <testcase name="p_create_reservation" classname="specs.ReservationsSpec" time="4.143">
+    <failure message="java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.&#10;&#10;This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.&#10;This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support&#10;The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.navigator.SelectFactory.loadSelectClass(SelectFactory.groovy:32)
+	at geb.navigator.SelectFactory.createSelectFor(SelectFactory.groovy:25)
+	at geb.navigator.NonEmptyNavigator.setSelectValue(NonEmptyNavigator.groovy:719)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:685)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure40(NonEmptyNavigator.groovy:676)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:675)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:417)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.TemplateDerivedPageContent.value(TemplateDerivedPageContent.groovy:32)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.reservationBlock.CreateReservationPage.createReservation(CreateReservationPage.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.ReservationsSpec.p_create_reservation(ReservationsSpec.groovy:46)
+</failure>
+  </testcase>
+  <testcase name="p_create_reservation_with_company" classname="specs.ReservationsSpec" time="5.148">
+    <failure message="java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.&#10;&#10;This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.&#10;This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support&#10;The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.navigator.SelectFactory.loadSelectClass(SelectFactory.groovy:32)
+	at geb.navigator.SelectFactory.createSelectFor(SelectFactory.groovy:25)
+	at geb.navigator.NonEmptyNavigator.setSelectValue(NonEmptyNavigator.groovy:719)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:685)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure40(NonEmptyNavigator.groovy:676)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:675)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:417)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.TemplateDerivedPageContent.value(TemplateDerivedPageContent.groovy:32)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.reservationBlock.CreateReservationPage.createReservation(CreateReservationPage.groovy:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.ReservationsSpec.p_create_reservation_with_company(ReservationsSpec.groovy:71)
+</failure>
+  </testcase>
+  <testcase name="p_cancel_reservation" classname="specs.ReservationsSpec" time="3.772">
+    <failure message="java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.&#10;&#10;This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.&#10;This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support&#10;The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.navigator.SelectFactory.loadSelectClass(SelectFactory.groovy:32)
+	at geb.navigator.SelectFactory.createSelectFor(SelectFactory.groovy:25)
+	at geb.navigator.NonEmptyNavigator.setSelectValue(NonEmptyNavigator.groovy:719)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:685)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure40(NonEmptyNavigator.groovy:676)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:675)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:417)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.TemplateDerivedPageContent.value(TemplateDerivedPageContent.groovy:32)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.reservationBlock.CreateReservationPage.createReservation(CreateReservationPage.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.ReservationsSpec.p_cancel_reservation(ReservationsSpec.groovy:95)
+</failure>
+  </testcase>
+  <testcase name="p_edit_reservation" classname="specs.ReservationsSpec" time="4.048">
+    <failure message="java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.&#10;&#10;This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.&#10;This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support&#10;The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: Unable to find class 'org.openqa.selenium.support.ui.Select', which is required when interacting with select elements.
+
+This class is part of the selenium-support jar, which is not part of the WebDriver core that is depended on by each of the drivers. This means that you need to add this jar to your project yourself as an explicit dependency.
+This jar is available from maven central: http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+The use of this class was introduced in Geb 0.6.1 due to changes in WebDriver 2.6.0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at geb.navigator.SelectFactory.loadSelectClass(SelectFactory.groovy:32)
+	at geb.navigator.SelectFactory.createSelectFor(SelectFactory.groovy:25)
+	at geb.navigator.NonEmptyNavigator.setSelectValue(NonEmptyNavigator.groovy:719)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:685)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.setInputValues_closure40(NonEmptyNavigator.groovy:676)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:675)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:417)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.content.TemplateDerivedPageContent.value(TemplateDerivedPageContent.groovy:32)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at pages.reservationBlock.CreateReservationPage.createReservation(CreateReservationPage.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.Browser.methodMissing(Browser.groovy:217)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:60)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at specs.ReservationsSpec.p_edit_reservation(ReservationsSpec.groovy:121)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

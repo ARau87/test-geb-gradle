@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="specs.LocationSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-21T12:31:50" hostname="ASUS03" time="27.952">
+  <properties/>
+  <testcase name="p_find_Location_By_Name" classname="specs.LocationSpec" time="8.511"/>
+  <testcase name="p_create_new_random_location" classname="specs.LocationSpec" time="7.177"/>
+  <testcase name="p_edit_location" classname="specs.LocationSpec" time="12.263"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 12103
+Only local connections are allowed.
+Aug. 21, 2018 2:31:54 NACHM. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMATION: Detected dialect: OSS
+]]></system-err>
+</testsuite>
